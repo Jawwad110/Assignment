@@ -1,0 +1,69 @@
+/* html{
+    background-color: #F1EB32;*/ 
+
+
+p{
+    color:darkcyan;
+    font-size: 20px;
+}
+
+h1{
+    color: darkgreen;
+    font-size: 40px;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+    text-shadow: 3px 2px 1px black;
+}
+
+.ollist{
+letter-spacing: 2px;
+line-height: 2pc;
+
+}
+
+#ullist{
+    letter-spacing: 1px;
+    list-style:circle;
+    line-height: 2pc;
+}
+
+a {
+    color:#70252E ;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+a:hover{
+    color: #F1EB32;
+}
+
+img{
+    display: block;
+    border-radius: 5%;
+    
+}
+
+body{
+    margin: 0,auto;
+    padding: 0 20px 20px 20px;
+    background-color: aqua; 
+}
+.table{
+    background-color: #69C535;
+    
+}
+
+#bstable{
+    text-align: center;
+    color: #336BFF;
+}
+
+
+.table thead{
+    color:#475D61;
+}
+
+#bs{
+    color:black;
+}

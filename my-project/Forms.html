@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styleform.css" rel="stylesheet" type="text/css">
+    <title>Forms</title>
+</head>
+<body>
+<h1 id="wd">Form To Apply For Web Development</h1>
+<form id="apply" action="www.google.com">    
+ 
+<br>
+<img id="WD" src="Images/WD.jpg ">
+
+<div id="front">
+
+    <div>
+    <label for="FN">First Name:</label>
+    <input name="FN" type="text" placeholder="First Name" required size="30"><br>
+    </div>   
+    
+<br>
+
+    <div class="wdf">
+    <label for="LN">Last Name:</label>
+    <input name="LN" type="text" placeholder="Last Name" required size="30"><br>
+    </div>
+
+    <div class="wdf">
+<p>Learning of Web Development You will required Knowledge about: </p><br>
+   
+    <input name="lang" type="checkbox" value="HTML" id="Hypertext">
+    <label for="lang">HTML</label><br>
+      
+    <input name="style" type="checkbox" value="CSS" id="Cascading">
+    <label for="style">CSS</label><br>
+
+    <input name="Js" type="checkbox" value="Js" id="Javascript">
+    <label for="Js">Javascript</label><br>
+    </div>
+
+    <br>
+
+    <div class="wdf">    
+    <label for="mail">Email</label>
+    <input name="mail" type="email" required size="30"><br>
+   </div>
+
+<br>
+
+    <div class="wdf">
+    <input list="IDE" name="SourceCodeEditor" size="35">
+    <label for="SourceCodeEditor">Editor you use while coding</label>
+    <datalist id="IDE">
+        <option value="VS Code">
+        <option value="ATom IDE">
+        <option value="Brackets ">
+        <option value="Notepad++">
+        <option value="Microsoft Visual Studio">
+        <option value="Code Lobster">
+        <option value="Light Table">
+    </datalist>
+    </div>    
+
+    <div class="wdf">
+    <p>Social Media Sites through which to contact to you</p><br>
+    <label for="contact">Add your link</label>
+    <input name="contact" type="url" required size="30"><br>
+</di>
+
+    <br>
+   <input type="submit" >
+
+    f</div>
+<h1 id=contact> Feedback <h1>
+
+
+<div class="fd">       
+    <label for="Nme">Name:</label> 
+    <input type="text" name="Nme" size="30" >
+</div>
+
+<div class="fd">
+    <label for="email">Email:</label>
+    <input type="email" name="email" required size="30"><br>
+</div>
+
+<div class="fd">
+   
+    <label for="Country">Country:</label>
+   <input  list="Country" name="Country" size="30" >
+   <datalist name="Country" id="Country">
+   <option value="Pakistan"></option>
+   <option value="India"></option>
+   <option value="Canada"></option>
+   <option value="USA"></option>
+   <option value="England"></option>
+   </datalist>
+</div>
+<br>
+
+<div class="fd">
+    <label for="Subject">Subject</label><br>
+    <textarea name="Subject" placeholder="give the feedback" style="height: 150px; width: 600px; ;"></textarea><br>
+</div>
+    <input type="submit" >
+
+    <img id="fdimg" src="Images/fd.png" >
+</form>
+
+</body>
+</html>

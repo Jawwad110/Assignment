@@ -1,0 +1,51 @@
+
+body{
+    background-color: #309465;
+}
+
+
+#wd{
+    color: black;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#contact{
+
+    color:black;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#front{
+    max-width: 100%;
+}
+
+
+
+.fd{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+#fdimg{
+    display: block;
+    margin-left: auto;   /* margin left: auto, margin bottom: auto image will be on the right side */ 
+    margin-bottom: auto;
+    margin-top: -150px;
+    max-width: 25%;
+    border-radius: 40%;
+}
+
+#WD{
+    display: block;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 0px;
+   max-width: 25%;
+}
+
+
+
